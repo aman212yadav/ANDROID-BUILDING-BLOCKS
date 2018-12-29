@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">block2</string>
+    <string name="list_of_animals">List of Animals</string>
+    <string name="dog">Dog</string>
+    <string name="pig">Pig</string>
+    <string name="horse">Horse</string>
+    <string name="cat">Cat</string>
+
+    <string-array name="animalsList">
+    <item>@string/dog</item>
+    <item>@string/pig</item>
+    <item>@string/horse</item>
+    <item>@string/dog</item>
+    <item>@string/cat</item>
+</string-array>
+    <string name="toastMessage">You Picked</string>
+
+</resources>
