@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/blue_invisible"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="toDo"
+        android:text="The invisible Men's to do List" />
+    <Button
+        android:id="@+id/pink_toast"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+
+        android:layout_below="@id/blue_invisible"
+        android:background="@android:color/holo_red_light"
+        android:onClick="toDo"
+        android:text="The Pink Panther's to do list" />
+</RelativeLayout>
